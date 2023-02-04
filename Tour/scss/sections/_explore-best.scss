@@ -1,0 +1,52 @@
+@use "../custom" as *;
+
+.explore-best{
+    margin: 5rem 0 0 0;
+    background: $secondary;
+    color: $white;
+    text-align: center;
+    padding: 2.5rem 0 2.5rem 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+
+
+    @include media-breakpoint-down(sm){
+        h3{
+            font-size: 1rem;
+        }
+        
+
+        .explore-p{
+            font-size: 0.85rem;
+            // border: solid 2px red;
+            
+        }
+    }
+
+    p{
+        font-size: 1.2rem;
+    }
+}
+
+.btn-explore-best{
+    border: solid 2px $white;
+    width: fit-content;
+    padding: 1.2rem 2.3rem 1.2rem 2.3rem;
+    margin: 0 auto;
+
+    &:hover{
+        background-color: white;
+
+        a{
+            color: $secondary;
+        }
+    }
+
+
+    a{
+        text-decoration: none;
+        color: white;
+        // padding: 0 2.5rem 0 2.5rem;
+    }
+}

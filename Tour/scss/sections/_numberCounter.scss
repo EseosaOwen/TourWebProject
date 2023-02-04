@@ -1,0 +1,31 @@
+@use "../custom" as *;
+
+
+.numbersCount{
+    @include media-breakpoint-down(sm){
+        flex-direction: column;
+    }
+    max-width: 1200px;
+    // border: solid 2px green;
+    display: flex;
+    margin-top: 7rem;
+}
+
+.divNumber{
+    display: flex;
+    flex: .5;
+    // border: solid 2px red;
+}
+
+.numberDivs{
+    // border: solid 2px red;
+    width: fit-content;
+    margin: 5px;
+    flex: .5;
+    font-weight: 700;
+
+    p{
+        font-size: 15px;
+    }
+}
+

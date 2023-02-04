@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Website</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <!-- <link rel="stylesheet" href="./bootstrap-5.0.2-dist/"> -->
+    <link rel="stylesheet" href="./fontawesome-free-6.2.0-web/css/fontawesome.min.css">
+    <link rel="stylesheet" href="./assets/all.min.css">
+</head>
+<body>
+    <section class="wholeImg">
+    <!-- ////////////// NAVIGATION ////////////////// -->
+        <section class="header-nav">
+            <nav class="navbar navbar-expand-lg navbar-dark navigation">
+          <div class="container">
+            <a class="navbar-brand brandName" href="#">
+              Tour
+          </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">DropDown</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>              
+            </div>
+          </div>
+      </nav>
+        </section>
+
+    <!-- ////////////// INTRO SECTION ////////////////// -->
+        <section class="container intro-section">
+            <div class="row">
+                <div class="col-lg-6 first-intro">
+                    <h1 class="display-4">Let's Enjoy Your Trip Aboard</h1>
+                    <div>
+                        <form action="" class="form p-4">
+                            <div class="row justify-content-center">
+                                <div class="col-md-4  text-center hero-divs d-flex">
+                                    <input type="text" class="destin-trip form-control" placeholder="Destination">
+                                    <span class="svgcancel"><i class="fa-solid fa-circle-xmark"></i></span>
+                                </div>
+                                <div class="col-md-4  text-center hero-divs">
+                                    <input type="text" class="date-trip form-control" placeholder="Date">
+                                </div>
+                                <div class="col-md-4  text-center hero-divs">
+                                    <input type="text" class="people-trip form-control" placeholder="# of People">
+                                </div>
+                            </div>
+
+                            <div class="row">
+
+
+                                <a href="" class="col-md-6 search">
+                                    <div class="rounded-pill searchBtn">Search</div>
+                                </a>
+        
+                                <div class="col-md-6  text-center align-items-center d-flex" style="margin: 1rem 0 0 0;">
+                                    <input type="checkbox" id="check" checked>
+                                    <label for="check" style="width: 100%; text-align: left; cursor: pointer; font-size: 1.1rem;" class="ms-2">Save this Search</label>
+                                </div>
+
+                            </div>
+                           
+                            <!-- <div class="row search-side text-center justify-content-center align-items-center">
+                            </div> -->
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center second-intro">
+                    <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner hero carousel-main d-flex">
+                          <div class="carousel-item active carousel-size">
+                            <img src="./images/hero-slider-1.jpg" class="d-block img-fluid sliders" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./images/hero-slider-2.jpg" class="d-block img-fluid sliders" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./images/hero-slider-3.jpg" class="d-block img-fluid sliders" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./images/hero-slider-4.jpg" class="d-block img-fluid sliders" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./images/hero-slider-5.jpg" class="d-block img-fluid sliders" alt="...">
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- ////////////// SERVICES ////////////////// -->
+
+    <section class="container services text-center">
+      <div class="services-top">
+        <h3>Our Services</h3>
+        <div class="line-div"></div>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+      </div>
+
+      <!-- <div class="row services-bottom p-2">
+        <div class="col-lg-4 d-flex align-items-center">
+          <div class="row" style="border: solid 3px red; margin: 0 auto;">
+            <div class="col-md-12" style="border: solid 2px forestgreen;">
+              <img src="./images/hero-slider-1.jpg" alt="hero-image1" class="service-img">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8 main-service">
+          <div class="row" style="border: solid 2px green;">
+            <div class="col-sm-6 service-content">
+              <i class="fa-solid fa-bars"></i>
+              <h4>Beautiful Condo</h4>
+              <p>Even the all-powerful Pointing has no control about the blind texts.</p>
+            </div>
+            <div class="col-sm-6 service-content">
+              <i class="fa-solid fa-bars"></i>
+              <h4>Beautiful Condo</h4>
+              <p>Even the all-powerful Pointing has no control about the blind texts.</p>
+            </div>
+            <div class="col-sm-6 service-content">
+              <i class="fa-solid fa-bars"></i>
+              <h4>Beautiful Condo</h4>
+              <p>Even the all-powerful Pointing has no control about the blind texts.</p>
+            </div>
+            <div class="col-sm-6 service-content">
+              <i class="fa-solid fa-bars"></i>
+              <h4>Beautiful Condo</h4>
+              <p>Even the all-powerful Pointing has no control about the blind texts.</p>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <div class="services-bottom">
+        <div class="services-bottom-img mx-3 d-flex align-items-center">
+          <img src="./images/hero-slider-1.jpg" alt="hero-image1" class="service-img">
+        </div>
+
+        <div class="services-bottom-content">
+            <div class="service-content">
+              <i class="fa-solid fa-bars"></i>
+              <h4>Beautiful Condo</h4>
+              <p>Even the all-powerful Pointing has no control about the blind texts.</p>
+            </div>
+            <div class="service-content">
+              <i class="fa-solid fa-bars"></i>
+              <h4>Beautiful Condo</h4>
+              <p>Even the all-powerful Pointing has no control about the blind texts.</p>
+            </div>
+            <div class="service-content">
+              <i class="fa-solid fa-bars"></i>
+              <h4>Beautiful Condo</h4>
+              <p>Even the all-powerful Pointing has no control about the blind texts.</p>
+            </div>
+            <div class="service-content">
+              <i class="fa-solid fa-bars"></i>
+              <h4>Beautiful Condo</h4>
+              <p>Even the all-powerful Pointing has no control about the blind texts.</p>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!-- <div>
+      <h1 class="count-text">0</h1>
+    </div> -->
+    <section class="container numbersCount text-center">
+      <div class="divNumber">
+        <div class="numberDivs">
+          <h1 class="count-text">0</h1>
+          <p>No. of Travels</p>
+        </div>
+
+        <div class="numberDivs">
+          <h1 class="count-text">0</h1>
+          <p>No. of Clients</p>
+        </div>
+      </div>
+
+      <div class="divNumber">
+
+        <div class="numberDivs">
+          <h1 class="count-text">0</h1>
+          <p>No. of Employees</p>
+        </div>
+        <div class="numberDivs">
+          <h1 class="count-text">0</h1>
+          <p>No. of Countries</p>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ////////////// TESTIMONIALS ////////////////// -->
+    <section class="testimonials">
+      <div class="mb-5">
+        <h3 class="text-center">Testimonials</h3>
+        <div class="line-div"></div>
+      </div>
+
+      <div id="carouselExampleIndicators" class="carousel slide carousel-dark" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <a type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></a>
+          <a type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></a>
+          <a type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></a>
+        </div>
+        <div class="carousel-inner text-center pt-3 px-3" style="max-width: 500px; margin: 0 auto; margin-bottom: 2rem;">
+          <div class="carousel-item active">
+            <img src="./images/gal_4.jpg" class="imgcar img-circle" alt="...">
+            <h4>Kayla Bryant</h4>
+            <p style="margin-bottom: 5rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt cum dolorem hic repudiandae eveniet eius.</p>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/gal_4.jpg" class="imgcar" alt="...">
+            <h4>Mary stevens</h4>
+            <p style="margin-bottom: 5rem;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto quas ducimus esse?</p>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/gal_4.jpg" class="imgcar" alt="...">
+            <h4>George Adolfo</h4>
+            <p style="margin-bottom: 5rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis deleniti temporibus tenetur repellat odio voluptatem non.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ////////////// SPECIAL OFFERS ////////////////// -->
+    <section class="special-offers container">
+      <div class="mt-5 mb-5 special-top">
+        <h3 class="text-center">Special Offers &amp; Discounts</h3>
+        <div class="line-div"></div>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia<br> and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at <br>the coast of the Semantics, a large language ocean</p>
+      </div>
+      
+      <div class="special-bottom">
+        <div class="special-holder">
+          <div class="special-cards text-start">
+            <img src="./images/hero-slider-1.jpg" alt="" class="special-imgs">
+            <div>
+              Italy
+            </div>
+            <h5>Rialto Mountains</h5>
+            <p>$550</p>
+
+          </div>
+
+          <div class="special-cards text-start">
+            <img src="./images/hero-slider-2.jpg" alt="" class="special-imgs">
+            <div>
+              Italy
+            </div>
+            <h5>San Francisco</h5>
+            <p>$520</p>
+
+          </div>
+        </div>
+
+        <div class="special-holder">
+          <div class="special-cards text-start">
+            <img src="./images/hero-slider-3.jpg" alt="" class="special-imgs">
+            <div>
+              Italy
+            </div>
+            <h5>Perhentian Islands</h5>
+            <p>$750</p>
+
+          </div>
+          <div class="special-cards text-start">
+            <img src="./images/hero-slider-4.jpg" alt="" class="special-imgs">
+            <div>
+              Italy
+            </div>
+            <h5>Lake Thun</h5>
+            <p>$640</p>
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="special-extra">
+        <div class="special-extra-div">
+          <img src="./images/hero-slider-2.jpg" alt="" class="extra-img">
+          <a href="#" class="glightbox" style="cursor: pointer;">
+            <span>
+              <i class="fas fa-play-circle" style="cursor: pointer;"></i>
+            </span>
+            <!-- <span class="border-animation border-animation--border2 rounded-circle"></span> -->
+          </a>
+
+          <span class="play">
+
+          </span>
+
+          <span class="border-animation rounded-circle"></span>
+
+
+        </div>
+
+        <div class="special-extra-div2">
+          <div class="" style="">
+            <h3>Take a look at Tour Video</h3>
+            <div class="line-div"></div>
+          </div>
+
+          <div class="extra-content" style="max-width: fit-content;margin: 0 auto;">
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+
+            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+            <div class="extra-ul">
+              <ul>
+                <li>Outdoor recreation activities</li>
+                <li>Airlines</li>
+                <li>Car Rentals</li>
+                <li>Travel Insurance</li>
+                <li>Insurance</li>
+              </ul>
+  
+              <ul>
+                <li>Outdoor recreation activities</li>
+                <li>Airlines</li>
+                <li>Car Rentals</li>
+                <li>Travel Insurance</li>
+                <li>Insurance</li>
+              </ul>
+            </div>
+
+            <a href="" class="col-md-6 search" style="font-size: 14px;">
+              <div class="rounded-pill searchBtn two">Get started</div>
+            </a>
+            
+          </div>
+
+          
+
+        </div>
+      </div>
+
+    </section>
+
+    <section class="explore-best">
+      <div class="text-center">
+        <h3>Lets you Explore the Best. Contact Us Now</h3>
+        <p class="explore-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, fugit?</p>
+        <a href="" class="col-md-6 search" style="font-size: 14px;margin: 0 auto;">
+          <div class="rounded-pill searchBtn three">Get started</div>
+        </a>
+      </div>
+      
+    </section>
+
+    <footer class="container footer">
+      <div class="top-footer">
+        <div class="top-footer-contents">
+          <h5>About Tour</h5>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          <div class="top-footer-icons">
+            <span></span>
+          </div>
+
+        </div>
+        <div class="top-footer-contents">
+          <ul>
+            <li>Pages</li>
+            <li><a href=""> Blogs</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <div class="top-footer-contents">
+          <ul>
+            <li>Resources</li>
+            <li><a href="">Blogs</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <div class="top-footer-contents">
+          <ul>
+            <li>Contact</li>
+            <li><a href="">omobill2000@gmail.com</a></li>
+            <li><a href="">+234 908 398 8172</a></li>
+            <li><a href="">43 Raymouth Rd. Baltemoer, London 3910</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bottom-footer text-center">
+        <p>Copyright ©2022. All Rights Reserved. — Designed with love by Untree.co Distributed By EED</p>
+      </div>
+    </footer>
+
+    <script>
+
+      ///////////// Code to make the cancel on the search input fields in the hero-section
+
+      let destinTrip = document.querySelector(".destin-trip");
+      let svgCancel = document.querySelector(".svgcancel");
+      // Checking for an input event
+      destinTrip.addEventListener("input", (e) => {
+        if(destinTrip.value != ""){
+          svgCancel.classList.add("active");
+          svgCancel.addEventListener("click", ()=>{
+            destinTrip.value = "";
+            svgCancel.classList.remove("active");
+          })
+        }
+        else{
+          svgCancel.classList.remove("active");
+        }
+      })
+
+
+      //////////// Incrementing numbers
+      let countText = document.querySelectorAll(".count-text");
+      
+      // // Adding a scroll event
+
+      window.addEventListener("scroll", ()=>{
+      // Checking when the user scrolls above 100%
+        if(pageYOffset > 100){
+          let counter = 0;
+          // if the user has, then the counter should start incrementing
+          setInterval(()=>{
+            if(counter < 800){
+              counter ++;
+              console.log(counter);
+              countText.forEach((count)=>{
+                count.innerText = counter;
+              })              
+            }  
+          }, 100)
+        }
+      })
+
+    </script>
+    <script src="./bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+    <script src="./assets/all.min.js"></script>
+</body>
+</html>

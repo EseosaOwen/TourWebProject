@@ -1,0 +1,181 @@
+@use "../custom" as *;
+
+//hero-section(main);
+.intro-section{
+    position: relative;
+    // max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+}
+
+.display-4{
+    color: white;
+    font-weight: 600;
+    margin: 0 0 2rem 0;
+}
+
+.form{
+    @include media-breakpoint-down(sm){
+        width: 90vw;
+        margin: 0 auto;
+        
+    }
+    background: $white;
+    // margin: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0px 30px 1px $gray-700;
+}
+
+// First part of with the form
+.first-intro{
+    @include media-breakpoint-down(lg){
+        left: 0;
+        z-index: 0000;
+    }
+
+    padding: 2rem 0 0 0;
+    position: relative;
+    // border: solid 2px red;
+    padding: 10px;
+    // margin-right: -4rem;
+    margin: 2rem 0 0 0;
+    left: 4rem;
+    z-index: 9999;
+}
+
+//////////// Search button ///////////////
+.search{
+    @include media-breakpoint-down(md){
+        max-width: 100%;
+    }
+
+    max-width: fit-content;
+    color: $white;
+    text-decoration: none;
+    margin: 1rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    // border: solid 2px red;
+
+
+    .searchBtn{
+
+        @include media-breakpoint-down(md){
+            width: 100%;
+            // border: solid 2px red;
+        }
+
+        background-color: $secondary;
+        color: $white;
+        padding: 1rem 4rem 1rem 4rem;
+        text-align: center;
+        width: fit-content;
+    
+    
+    
+        &:hover{
+            background-color: $secondary-2;
+        }
+    }
+
+    .searchBtn.two{
+        padding: 1rem 2rem 1rem 2rem;
+    }
+
+    .searchBtn.three{
+        @include media-breakpoint-down(md){
+            width: 70%;
+            // border: solid 2px red;
+        }
+
+        margin: 0 auto;
+        // background: none;
+        padding: 1rem 2.5rem 1rem 2.5rem;
+        border: solid 1px white;
+        font-weight: 700;
+
+        &:hover{
+            background-color: $white;
+            color: $secondary;
+        }
+    }
+}
+
+//////////// input boxes /////////////////
+.destin-trip{
+    // max-width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 2px $gray-300;
+}
+
+.date-trip{
+    // max-width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 2px $gray-300;
+}
+
+.people-trip{
+    // max-width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 2px $gray-300;
+}
+
+.hero-divs{
+    @include media-breakpoint-down(md){
+        margin-bottom: 1rem;
+    }
+    position: relative;
+    // border:solid 2px red;
+
+
+    .svgcancel{
+        font-size: 20px;
+        background-color: whitesmoke;
+        padding: 5px 0 5px 0;
+        // border:solid 2px red;
+        position: absolute;
+        top: 10%;
+        left: 82%;
+        display: none;
+        cursor: pointer;
+        color: $secondary-2;
+    }
+
+    .svgcancel.active{
+        display: flex;
+    }
+}
+
+////////////// Sliding images //////////////
+.sliders{
+    @include media-breakpoint-down(lg){
+        left: 0;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    @include media-breakpoint-down(sm){
+        width: 70%;
+    }
+    position: relative;
+    // border: solid 2px green;
+    border-radius: 40%;
+    width: 65%;
+    top: 3rem;
+    box-shadow: 0 8px 12px 0px $gray-600;
+    // left: 2rem;
+}
+
+.campanies{
+    margin-top: 5rem;
+}
+
+// Anytime i style the main buttons.scss file in my own the styles do not reflect, but when i dont it does 
+
+// Remeber to check the button for the bakery web or biznut

@@ -1,0 +1,63 @@
+@use "../custom" as *;
+
+.wholeImg{
+    background-color: $blued;
+}
+
+.header-nav{
+    // display: flex;
+    justify-content: center;
+}
+
+// Touched
+
+.navigation{
+    background-color: $blued;
+}
+
+
+.brandName{
+    font-size: 1.6rem;
+    font-weight: 700;
+    // border: solid 2px red;
+}
+
+
+.links{
+    color: $gray-300;
+    font-size: 0.9rem;
+
+    &:hover{
+        color: $white;
+    }
+}
+
+// Touched
+.contains{
+    display: flex;
+}
+
+.navbar-nav .show > .nav-link, .navbar-nav .nav-link.active {
+    color: $white;
+}
+
+.navbar-toggler {
+  padding: var(--#{$prefix}navbar-toggler-padding-y) var(--#{$prefix}navbar-toggler-padding-x);
+  @include font-size(var(--#{$prefix}navbar-toggler-font-size));
+  line-height: 1;
+  color: var(--#{$prefix}navbar-color);
+  background-color: transparent; // remove default button style
+  border: var(--#{$prefix}border-width) solid var(--#{$prefix}navbar-toggler-border-color); // remove default button style
+  @include border-radius(var(--#{$prefix}navbar-toggler-border-radius));
+  @include transition(var(--#{$prefix}navbar-toggler-transition));
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 var(--#{$prefix}navbar-toggler-focus-width);
+  }
+}

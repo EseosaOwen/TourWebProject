@@ -1,0 +1,14 @@
+@use "./custom";
+
+@use "./sections/navbar";
+@use "./sections/hero-section";
+@use "./sections/services";
+@use "./sections/numberCounter";
+@use "./sections/testimonials";
+@use "./sections/special-offers";
+@use "./sections/explore-best";
+@use "./sections/footer";
+
+
+@use "./components/buttons";
+@use "./components/typography";
